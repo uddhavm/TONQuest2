@@ -29,7 +29,7 @@ async function onchainScript() {
     "?" +
     qs.stringify({
         text: "tonspeedrun2",
-        amount: toNano("0.6").toString(10),
+        amount: toNano("0.0069").toString(10),
     });
 
     console.log("Transaction link:",transactionLink);
