@@ -15,7 +15,7 @@
   int flags = cs~load_uint(4); ;; load the flags. we don't need this tho
   slice sender_address = cs~load_msg_addr(); ;; load the sender address
 
-  slice msg_text = "reply"; ;; "doge" will be our reply comment
+  slice msg_text = "sup daddy durov"; ;; "doge" will be our reply comment
 
   ;; build the message cell that we want this contract to send back
   ;; see https://ton.org/docs/develop/smart-contracts/messages
